@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">appl</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="welcome">Teh Botol Corp</string>
+    <string name="berhasil">Selamat Anda Berhasil Login</string>
+    <string name="gagal">Maaf Username atau Password Anda Salah</string>
+    <string name="relog">Relog</string>
+</resources>
