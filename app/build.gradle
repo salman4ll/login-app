@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.application'
+    id 'realm-android'
 }
 
 android {
@@ -20,12 +21,16 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            manifestPlaceholders = [usesCleartextTraffic:"false"]
         }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+}
+realm{
+    syncEnabled = true
 }
 
 dependencies {

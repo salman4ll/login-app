@@ -7,4 +7,6 @@
     <string name="berhasil">Selamat Anda Berhasil Login</string>
     <string name="gagal">Maaf Username atau Password Anda Salah</string>
     <string name="relog">Relog</string>
+    <string name="button_login"><u>Login</u></string>
+    <string name="button_register"><u>Register</u></string>
 </resources>
